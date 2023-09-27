@@ -2,7 +2,7 @@ package interfaces;
 
 public interface ReprodutorMusical {
 	
-	void tocarMusica();
-	void pausarMusica();
+	void tocar();
+	void pausar();
 	void selecionarMusica();
 }

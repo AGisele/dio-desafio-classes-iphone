@@ -25,12 +25,12 @@ public class Iphone implements AparelhoTelefonico, ReprodutorMusical, NavegadorI
 	}
 
 	@Override
-	public void tocarMusica() {
+	public void tocar() {
 		System.out.println("Reproduzindo música");
 	}
 
 	@Override
-	public void pausarMusica() {
+	public void pausar() {
 		System.out.println("Música pausada");
 	}
 
@@ -85,11 +85,11 @@ public class Iphone implements AparelhoTelefonico, ReprodutorMusical, NavegadorI
 				Thread.sleep(1000);
 				break;
 			case 5:
-				iphone.tocarMusica();
+				iphone.tocar();
 				Thread.sleep(1000);
 				break;
 			case 6:
-				iphone.pausarMusica();
+				iphone.pausar();
 				Thread.sleep(1000);
 				break;
 			case 7:
